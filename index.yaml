@@ -3,7 +3,7 @@ entries:
   short-app:
   - apiVersion: v2
     appVersion: 6.16.0
-    created: "2025-08-19T22:08:13.831826004+03:00"
+    created: "2025-08-19T22:14:12.268502461+03:00"
     description: short
     digest: 181754a025b2061a190d4478107c7241bb272b86dc9ad9f6a9a3e3ee2831e42b
     name: short-app
@@ -13,7 +13,7 @@ entries:
     version: 11.3.0
   - apiVersion: v2
     appVersion: 4.16.0
-    created: "2025-08-19T22:08:13.831707674+03:00"
+    created: "2025-08-19T22:14:12.268389581+03:00"
     description: short
     digest: 7a74b1dfa17ec5e89bf44521a91bef99929cd65b9ec16259945f24de0dafe871
     name: short-app
@@ -23,7 +23,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 3.16.0
-    created: "2025-08-19T22:08:13.831592204+03:00"
+    created: "2025-08-19T22:14:12.268278421+03:00"
     description: short
     digest: 8adf17e6a70cd7e881d8819781c59fee07f1cfa90b75912cdfdbfc79b2fdd707
     name: short-app
@@ -33,7 +33,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.16.0
-    created: "2025-08-19T22:08:13.831464194+03:00"
+    created: "2025-08-19T22:14:12.268164181+03:00"
     description: short
     digest: 5e72127da2e843e9836678bdaf847f7292d2aafd5500c19594426ac831c8fc23
     name: short-app
@@ -43,7 +43,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-19T22:08:13.831340014+03:00"
+    created: "2025-08-19T22:14:12.268045041+03:00"
     description: A Helm chart for Kubernetes
     digest: 33ca1e40220819d81489da14ef92b61546add964ae4571189211d1a0c7f02786
     name: short-app
@@ -53,8 +53,18 @@ entries:
     version: 0.1.0
   web-app:
   - apiVersion: v2
+    appVersion: 2.16.0
+    created: "2025-08-19T22:14:12.267922311+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 6280f07c4f47796c5ba3dfd36a80d9b68806465019dfb6a1c0f0035677728e64
+    name: web-app
+    type: application
+    urls:
+    - nginx/web-app-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-19T22:08:13.831203864+03:00"
+    created: "2025-08-19T22:14:12.267826161+03:00"
     description: A Helm chart for Kubernetes
     digest: da4c774300c0cd02bb6ce0ba805e8eb9d8d218a88b26c93c0da85777880fb65f
     name: web-app
@@ -64,7 +74,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-08-19T22:08:13.831074944+03:00"
+    created: "2025-08-19T22:14:12.267721981+03:00"
     description: A Helm chart for Kubernetes
     digest: 09c6a2322de64f8cdd37b2b70800219afe91cdfe63b41e25af414d7a0138533f
     name: web-app
@@ -72,4 +82,4 @@ entries:
     urls:
     - nginx/web-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-19T22:08:13.830886764+03:00"
+generated: "2025-08-19T22:14:12.267483741+03:00"
